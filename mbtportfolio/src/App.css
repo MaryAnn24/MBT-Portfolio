@@ -12,7 +12,7 @@
   --title-color: hsl(var(--hue), var(--sat), 10%);
   --title-color-light: hsl(0deg 1% 38%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --text-color: hsl(var(--hue), var(--sat), 30%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
   --text-active: hsl(32deg 71% 46%);
@@ -140,7 +140,7 @@ img {
 
 /*=============== LAYOUT ===============*/
 .container {
-  max-width: 968px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -161,7 +161,7 @@ img {
 }
 
 .button:hover {
-  background-color: var( --text-active-dark);
+  background-color: var(--text-active-dark);
 }
 
 .button__icon {
