@@ -183,6 +183,8 @@ img {
 
   .button {
     padding: 1rem 1.75rem;
+    width: 100%;
+    text-align: center;
   }
 
   .button__icon {
